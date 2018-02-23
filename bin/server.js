@@ -1,8 +1,7 @@
 require('dotenv').config()
 const restify = require('restify');
 const graphqlHTTP = require('express-graphql');
-const graphql = require('graphql').graphql
-const Schema = require('./schema');
+const Schema = require('../lib/schema').schema;
 
 const app = restify.createServer();
 

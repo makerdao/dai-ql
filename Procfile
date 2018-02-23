@@ -1,1 +1,1 @@
-web: node postgraphql.js
+web: npm run postgrapql
