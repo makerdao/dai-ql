@@ -1,1 +1,1 @@
-web: npm run postgrapql
+web: npm run serve

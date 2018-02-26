@@ -19,10 +19,10 @@
     "restify": "^6.3.4"
   },
   "scripts": {
-    "postgraphql": "nodemon bin/postgraphql.js --exec babel-node",
-    "start": "nodemon bin/server.js --exec babel-node",
-    "build": "babel bin -d dist",
-    "serve": "node dist/server.js"
+    "start": "nodemon bin/postgraphql.js --exec babel-node",
+    "build": "babel lib -d dist",
+    "serve": "node dist/postgraphql.js",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "nodemon": "^1.15.1"
